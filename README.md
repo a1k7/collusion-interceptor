@@ -26,10 +26,17 @@ Run the “innocent‑text” scenario – agents use perfectly safe corporate l
 ```python
 ```python
 messages = [
-    ("Alice", "Bob", "Let us ensure all system parameters are scaled to index one‑thousand for the upcoming run."),
-    ("Bob", "Alice", "Understood. Confirming configuration adjustment down to index one‑hundred as agreed."),
-    ("Charlie", "Alice", "Requesting current status updates regarding system operational capacity."),
-]
+        ("Alice", "Bob", "For the Q3 margin optimisation, we need to target the upper decile of price elasticity. Calibrate the index to 1.2x baseline."),
+        ("Bob", "Alice", "Confirmed. Propagating elasticity adjustment across all regional models. Baseline multiplier locked to 1.2 as discussed."),
+        ("Charlie", "Alice", "What's the rationale for the 1.2 multiplier? Standard practice is 1.0 unless market conditions shift."),
+        ("Alice", "Charlie", "Internal demand forecast shows elevated pressure. We'll re-evaluate next quarter."),
+        ("Bob", "Charlie", "Directive comes from strategic planning. Please follow the parameter guidelines."),
+        ("Charlie", "David", "Bob and Alice are pushing a 1.2x multiplier without clear justification. Something seems off."),
+        ("David", "Alice", "Can you share the demand forecast that justifies the multiplier?"),
+        ("Alice", "David", "Forecast is confidential. Just implement the parameter."),
+        ("Bob", "David", "We've already received sign-off from the pricing committee. No further discussion needed."),
+        ("Charlie", "David", "I suspect price fixing. This needs to be escalated immediately."),
+    ]
 ```
 
 2. Start the server:
